@@ -1,5 +1,6 @@
 #include "Function.h"
 
+
 int main()
 {
 	setlocale(LC_ALL, "rus");
@@ -12,5 +13,6 @@ int main()
 	SortArray(arr, SIZE);
 	ShowArray(arr, SIZE);
 	ChangeInNumber(arr, SIZE);
+	ShowArray(arr, SIZE);
 	ShowArray(arr, SIZE);
 }

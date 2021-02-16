@@ -8,6 +8,7 @@ void InitArray(int arr[], int size)
 		arr[i] = rand() % 10;
 	}
 }
+
 void ShowArray(int arr[], int size)
 {
 	for (int i = 0; i < size; i++)
@@ -16,6 +17,7 @@ void ShowArray(int arr[], int size)
 	}
 	cout << '\n';
 }
+
 int SearchMaxArray(int arr[], int size)
 {
 	int max = arr[0];
@@ -28,6 +30,7 @@ int SearchMaxArray(int arr[], int size)
 	}
 	return max;
 }
+
 int SearchMinArray(int arr[], int size)
 {
 	int min = arr[0];
@@ -40,10 +43,12 @@ int SearchMinArray(int arr[], int size)
 	}
 	return min;
 }
+
 void SortArray(int arr[], int size)
 {
 	sort(arr, arr + size);
 }
+
 void ChangeInNumber(int arr[], int size)
 {
 	int number;
